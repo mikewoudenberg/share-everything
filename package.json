@@ -5,7 +5,7 @@
   "scripts": {},
   "private": true,
   "devDependencies": {
-    "@capacitor/android": "^3.4.1",
+    "@capacitor/android": "^3.2.5",
     "@capacitor/cli": "^3.2.5",
     "@capacitor/ios": "^3.2.5",
     "@nrwl/cli": "13.8.2",
