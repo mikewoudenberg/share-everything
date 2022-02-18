@@ -19,5 +19,8 @@
         ]
       }
     }
-  }
+  },
+  "plugins": [
+    "@nxrocks/nx-flutter"
+  ]
 }
