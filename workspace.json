@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
-    "flutter-example": "packages/flutter-example"
+    "flutter-example": "packages/flutter-example",
+    "ionic-app": "packages/ionic-app",
+    "ionic-app-e2e": "packages/ionic-app-e2e"
   }
 }
