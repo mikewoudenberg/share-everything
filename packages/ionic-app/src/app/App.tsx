@@ -23,6 +23,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import Camera from './pages/Camera';
 
 const App: React.FC = () => (
   <IonApp>
@@ -31,6 +32,7 @@ const App: React.FC = () => (
         <Route path="/home" component={Home} exact={true} />
         <Route path="/message/:id" component={ViewMessage} exact={true} />
         <Route exact path="/" render={() => <Redirect to="/home" />} />
+        <Route path="/camera" render={() => <Camera />} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>

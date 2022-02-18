@@ -4,6 +4,7 @@ import { Message, getMessages } from '../data/messages';
 import {
   IonContent,
   IonHeader,
+  IonItem,
   IonList,
   IonPage,
   IonRefresher,
@@ -33,6 +34,7 @@ const Home: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>Inbox</IonTitle>
+          <IonItem routerLink="/camera">Camera</IonItem>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
