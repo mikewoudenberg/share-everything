@@ -6,6 +6,7 @@
   "private": true,
   "devDependencies": {
     "@nrwl/cli": "13.8.2",
+    "@nrwl/react": "^13.8.2",
     "@nrwl/tao": "13.8.2",
     "@nrwl/workspace": "13.8.2",
     "@nxrocks/nx-flutter": "^3.0.2",
