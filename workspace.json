@@ -1,8 +1,6 @@
 {
   "version": 2,
   "projects": {
-    "flutter-example": "packages/flutter-example",
-    "nx-ionic-mobile": "packages/nx-ionic-mobile",
-    "nx-ionic-mobile-e2e": "packages/nx-ionic-mobile-e2e"
+    "flutter-example": "packages/flutter-example"
   }
 }
